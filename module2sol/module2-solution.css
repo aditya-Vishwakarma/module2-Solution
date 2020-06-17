@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+
+    h1 {
+        margin-top: 5rem;
+        text-align: center; 
+        width: 100%;
+    }
+
+    .menu {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .menu-item_1 {
+        background-color: rgb(124, 122, 122);
+        border: 1px solid black;
+        display: block;
+        margin-top: .5rem;
+        padding: .5rem;
+        position: relative;
+        width: 100%;
+    }
+
+    .menu-item_2 {
+        background-color: rgb(124, 122, 122);
+        border: 1px solid black;
+        display: block;
+        margin-top: .5rem;
+        padding: .5rem;
+        position: relative;
+        width: 100%;
+    }
+
+    .menu-item_3 {
+        background-color: rgb(124, 122, 122);
+        border: 1px solid black;
+        display: block;
+        margin-top: .5rem;
+        padding: .5rem;
+        position: relative;
+        width: 100%;
+    }
+
+    .item-name_1 {
+        background-color: rgb(199, 96, 48);
+        border: 1px solid red;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        width: 25%;
+    }
+    
+    .item-name_2 {
+        background-color: rgb(37, 207, 59);
+        border: 1px solid red;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        width: 25%;
+    }
+    
+    .item-name_3 {
+        background-color: rgb(0, 155, 155);
+        border: 1px solid red;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        width: 25%;
+    }
+
+    .item-description {
+        padding: 2.5rem .5rem 1rem .5rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    h1 {
+        margin-top: 10rem;
+        text-align: center; 
+        width: 100%;
+    }
+
+    .menu {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .menu-item_1 {
+        background-color: rgb(124, 122, 122);
+        border: 1px solid black;
+       float: left;
+        margin-top: .5rem;
+        margin-bottom: 1rem;
+        padding: .5rem;
+        position: relative;
+        width: 49%;
+    }
+
+    .menu-item_2 {
+        background-color: rgb(124, 122, 122);
+        border: 1px solid black;
+    
+        float: right;
+        margin-top: .5rem;
+        padding: .5rem;
+        position: relative;
+        width: 49%;
+    }
+    
+    .menu-item_3 {
+        background-color: rgb(124, 122, 122);
+        border: 1px solid black;
+        clear: both;
+
+        padding: .5rem;
+        position: relative;
+        width: 100%;
+    }
+
+    .item-name_1 {
+        background-color: rgb(199, 96, 48);
+        border: 1px solid red;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        width: 30%;
+    }
+    
+    .item-name_2 {
+        background-color: rgb(37, 207, 59);
+        border: 1px solid red;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        width: 30%;
+    }
+    
+    .item-name_3 {
+        background-color: rgb(0, 155, 155);
+        border: 1px solid red;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        width: 30%;
+    }
+    
+    .item-description {
+        padding: 2.5rem .5rem 1rem .5rem;
+    }
+
+}
+
+@media (min-width: 992px) {
+    h1 {
+        margin-top: 10rem;
+        text-align: center;
+    }
+    
+    .menu {
+        margin: 0 auto;
+        width: 90%;
+    }
+    
+    .menu-item_1 {
+        background-color: rgb(124, 122, 122);
+        border: 1px solid black;
+        display: block;
+        float: left;
+        margin: 1rem .5rem;
+        padding: .5rem;
+        position: relative;
+        width: 30%;
+    }
+
+    .menu-item_2 {
+        background-color: rgb(124, 122, 122);
+        border: 1px solid black;
+        display: block;
+        float: left;
+        margin: 1rem .5rem;
+        padding: .5rem;
+        position: relative;
+        width: 30%;
+    }
+    
+    .menu-item_3 {
+        background-color: rgb(124, 122, 122);
+        border: 1px solid black;
+        display: block;
+        float: left;
+        margin: 1rem .5rem;
+        padding: .5rem;
+        position: relative;
+        width: 30%;
+    }
+
+    .item-name_1 {
+        background-color: rgb(199, 96, 48);
+        border: 1px solid red;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        width: 30%;
+    }
+    
+    .item-name_2 {
+        background-color: rgb(37, 207, 59);
+        border: 1px solid red;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        width: 30%;
+    }
+    
+    .item-name_3 {
+        background-color: rgb(0, 155, 155);
+        border: 1px solid red;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        width: 30%;
+    }
+    
+    .item-description {
+        padding: 2.5rem .5rem 1rem .5rem;
+    }
+}
